@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(20, 20, 20);
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+.boxs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxe-connexion {
+    background-color: rgb(31, 31, 31);
+    width: 25%;
+    height: 62%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo-de-profil {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 30px;
+    margin-top: 60px;
+    
+    
+}
+
+.pseudo {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.lieu {
+    color:hsl(75, 94%, 57%);
+    font-size: 9px;
+}
+
+.profession {
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.664);
+    margin: 20px;
+    text-align: center;
+}
+
+.liens {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.lien {
+    width: 80%;
+    
+    text-align: center;
+    padding: 2%;
+    border-radius: 14px;
+    margin: 2%;
+    font-size: 9px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    transition: all 0.5s ease;
+    font-weight: 600;
+}
+
+.lien:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: rgb(20, 20, 20);
+    
+}
+
+
+
+@media screen and (max-height: 950px) and (min-height:450px){
+    
+    .boxe-connexion {
+        width: 70%;
+        flex-direction: row;   
+    }
+
+    .profile {
+        flex-direction: column;
+        width: 40%;
+        height: 100%;
+    }
+
+    .photo-de-profil {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+
+    .pseudo {
+    font-size: 17px;
+    margin-top: 10px;
+    }
+
+    .lieu {
+    font-size: 10px;
+    }
+
+    .profession {
+    font-size: 10px;
+    }
+
+    .liens {
+        width: 60%;
+        height: 80%;
+        justify-content: space-between;
+    }
+
+    .lien {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .boxe-connexion {
+        height: 70%;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .profile {
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+        margin: 20px;
+    }
+    
+    .pseudo {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .lieu {
+        font-size: 14px;
+        }
+    
+        .profession {
+        font-size: 14px;
+        }
+
+    .liens {
+        width: 100%;
+        height: 50%;
+        justify-content: space-between;
+    }   
+
+    .lien {
+        font-size: 14px;
+        padding: 15px;
+        
+    }
+    
+}
+
+@media screen and (max-height: 840px) and (max-width: 500px){
+    .boxe-connexion {
+        height: 90%;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .profile {
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+        margin: 20px;
+    }
+    
+    .pseudo {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .lieu {
+        font-size: 14px;
+        }
+    
+        .profession {
+        font-size: 14px;
+        }
+
+    .liens {
+        width: 100%;
+        height: 50%;
+        justify-content: space-between;
+    }   
+
+    .lien {
+        font-size: 14px;
+        padding: 15px;
+        
+    }
+    
+}
+
+@media screen and (min-height: 1000px) and (min-width: 600px){
+    .boxe-connexion {
+        width: 70%;
+        height: 75%;
+        flex-direction: column;   
+    }
+
+    .profile {
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+    }
+
+    .photo-de-profil {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+
+    .pseudo {
+    font-size: 17px;
+    margin-top: 10px;
+    }
+
+    .lieu {
+    font-size: 10px;
+    }
+
+    .profession {
+    font-size: 10px;
+    }
+
+    .liens {
+        width: 100%;
+        height: 60%;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+    
+    .lien {
+        font-size: 14px;
+        padding: 15px;
+        
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 950px){
+    .boxe-connexion {
+        width: 70%;
+        flex-direction: row;   
+    }
+
+    .profile {
+        flex-direction: column;
+        width: 40%;
+        height: 100%;
+    }
+
+    .photo-de-profil {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+
+    .pseudo {
+    font-size: 17px;
+    margin-top: 10px;
+    }
+
+    .lieu {
+    font-size: 10px;
+    }
+
+    .profession {
+    font-size: 10px;
+    }
+
+    .liens {
+        width: 60%;
+        height: 80%;
+        justify-content: space-between;
+    }
+
+    .lien {
+        font-size: 14px;
+        padding: 15px;
+    }
+}
