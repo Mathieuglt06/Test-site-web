@@ -323,3 +323,142 @@ body {
         padding: 15px;
     }
 }
+
+@media screen and (max-height: 449px){
+    .boxe-connexion {
+        width: 70%;
+        height: 90%;
+        flex-direction: row;   
+    }
+
+    .profile {
+        flex-direction: column;
+        width: 40%;
+        height: 100%;
+    }
+
+    .photo-de-profil {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+
+    .pseudo {
+    font-size: 17px;
+    margin-top: 10px;
+    }
+
+    .lieu {
+    font-size: 10px;
+    }
+
+    .profession {
+    font-size: 10px;
+    }
+
+    .boxe-connexion .liens {
+        width: 60%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .lien {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media screen and (min-height: 800px) and (min-width: 600px){
+    .boxe-connexion {
+        width: 70%;
+        height: 85%;
+        flex-direction: column;   
+    }
+
+    .profile {
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+    }
+
+    .photo-de-profil {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+
+    .pseudo {
+    font-size: 17px;
+    margin-top: 10px;
+    }
+
+    .lieu {
+    font-size: 10px;
+    }
+
+    .profession {
+    font-size: 10px;
+    }
+
+    .liens {
+        width: 100%;
+        height: 60%;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+    
+    .lien {
+        font-size: 14px;
+        padding: 15px;
+        
+    }
+}
+
+@media screen and (min-height: 1200px) and (min-width: 600px){
+    .boxe-connexion {
+        width: 70%;
+        height: 75%;
+        flex-direction: column;   
+    }
+
+    .profile {
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+    }
+
+    .photo-de-profil {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+
+    .pseudo {
+    font-size: 17px;
+    margin-top: 10px;
+    }
+
+    .lieu {
+    font-size: 10px;
+    }
+
+    .profession {
+    font-size: 10px;
+    }
+
+    .liens {
+        width: 100%;
+        height: 60%;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+    
+    .lien {
+        font-size: 14px;
+        padding: 23px;
+        
+    }
+}
